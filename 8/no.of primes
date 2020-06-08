@@ -1,0 +1,21 @@
+import java.io.*;
+import  java.util.*;
+class UserMainCode{
+  public int countPrimes(int input1,int input2){
+  int count=0;
+	while (input1 < input2) {
+            int flag=1;
+            for(int i = 2; i <= input1/2; ++i) {
+                if(input1 % i == 0) {
+                    flag=0;
+                    break;
+                }
+            }
+            if (f==1 && input1 != 0 && input1 != 1)
+                count++;
+
+            ++input1;
+		}
+		return count;
+	}
+}
