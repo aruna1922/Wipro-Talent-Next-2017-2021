@@ -1,6 +1,6 @@
 import java.io.*;
 import  java.util.*;
-class IdentifyPossibleWords {
+class UserMainCode {
 	public String identifyPossibleWords(String input1,String input2){
     input1 = input1.toUpperCase();
 		StringBuffer output = new StringBuffer();
