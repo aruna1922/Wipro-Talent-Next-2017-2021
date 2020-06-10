@@ -1,7 +1,7 @@
 import java.io.*;
 import  java.util.*;
 import java.math.*;
-class AdditionUusingStrings {
+class UserMainCode {
 	public String addNumberStrings(String input1,String input2){
 		BigDecimal x = new BigDecimal(input1);
 		BigDecimal y = new BigDecimal(input2);	
