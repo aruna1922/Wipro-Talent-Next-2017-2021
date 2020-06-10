@@ -1,6 +1,6 @@
 import java.io.*;
 import  java.util.*;
-class CalculateSumOfNonPrimeIndexValues {
+class UserMainCode {
 	public int sumOfNonPrimeIndexValues(int[] input1,int input2){
 		int sum = 0;		
 		for (int i = 0; i < input2; i++) 
